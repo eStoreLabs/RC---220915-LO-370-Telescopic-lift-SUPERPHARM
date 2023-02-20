@@ -1,0 +1,1274 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#es-loreal.es-loreal {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #1d1d1b;
+  background: #fff;
+  padding-bottom: 64px;
+}
+#es-loreal.es-loreal * {
+  box-sizing: border-box;
+}
+#es-loreal.es-loreal h2,
+#es-loreal.es-loreal h3,
+#es-loreal.es-loreal h4,
+#es-loreal.es-loreal h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1d1d1b;
+}
+#es-loreal.es-loreal .es-kv {
+  position: relative;
+  padding-top: 24px;
+}
+#es-loreal.es-loreal .es-kv__disclaimer {
+  position: absolute;
+  bottom: -30px;
+  right: 10px;
+  font-size: 12px;
+}
+#es-loreal.es-loreal .es-kv__logo {
+  margin: 24px 0;
+  margin-top: 0;
+  opacity: 0;
+  animation: slidedown 0.6s ease forwards;
+}
+#es-loreal.es-loreal .es-kv__banner {
+  position: relative;
+  background: url(../images/bg-kv.png) no-repeat center;
+  background-size: cover;
+  min-height: 426px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+#es-loreal.es-loreal .es-kv__brand {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#es-loreal.es-loreal .es-kv__brand-name {
+  max-width: 245px;
+  margin-bottom: 20px;
+}
+#es-loreal.es-loreal .es-kv__fancy {
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 5px;
+  margin: 5px;
+  max-width: 200px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-kv__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 8px;
+}
+#es-loreal.es-loreal .es-kv__title-group {
+  display: flex;
+  gap: 10px;
+}
+#es-loreal.es-loreal .es-kv__title-1,
+#es-loreal.es-loreal .es-kv__title-2 {
+  width: 75px;
+}
+#es-loreal.es-loreal .es-kv__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-weight: 500;
+  text-align: center;
+}
+#es-loreal.es-loreal .es-kv__packshot {
+  position: absolute;
+  opacity: 0;
+  animation: appear 0.6s ease forwards;
+  animation-delay: 0.6s;
+  bottom: 0;
+  right: 0;
+  padding: 0 8px;
+}
+#es-loreal.es-loreal .es-kv__packshot img {
+  max-width: 240px;
+  height: 230px;
+  margin-right: 0;
+}
+#es-loreal.es-loreal .es-kv__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-loreal.es-loreal .es-kv__lines {
+  display: none;
+}
+#es-loreal.es-loreal .es-kv__tik {
+  padding: 24px;
+}
+#es-loreal.es-loreal .es-kv__tik img {
+  margin-left: 0;
+}
+#es-loreal.es-loreal .es-kv__content {
+  padding: 0 4px;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#es-loreal.es-loreal .es-kv__content--1 {
+  position: absolute;
+  bottom: 0;
+  animation: slideright 0.6s ease forwards;
+  animation-delay: 0.6s;
+}
+#es-loreal.es-loreal .es-kv__disc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 12px;
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  z-index: 3;
+}
+#es-loreal.es-loreal .es-info {
+  padding: 56px 16px 32px 16px;
+}
+#es-loreal.es-loreal .es-info__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+#es-loreal.es-loreal .es-info__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+}
+#es-loreal.es-loreal .es-benefits {
+  position: relative;
+  z-index: 2;
+}
+#es-loreal.es-loreal .es-benefits__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px 0;
+}
+#es-loreal.es-loreal .es-benefits__single:hover .es-benefits__img--bg {
+  transform: scale(1.1);
+}
+#es-loreal.es-loreal .es-benefits__image {
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+#es-loreal.es-loreal .es-benefits__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.6s;
+}
+#es-loreal.es-loreal .es-benefits__img--banner {
+  flex: 4;
+}
+#es-loreal.es-loreal .es-benefits__tile {
+  position: relative;
+}
+#es-loreal.es-loreal .es-benefits__label {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.1;
+  transform: translate(-50%, -50%);
+}
+#es-loreal.es-loreal .es-benefits__label span {
+  font-size: 80px;
+}
+#es-loreal.es-loreal .es-benefits__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#es-loreal.es-loreal .es-benefits__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+}
+#es-loreal.es-loreal .es-benefits__text--banner {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 48px;
+  flex: 5;
+  text-align: left;
+}
+#es-loreal.es-loreal .es-benefits__text--right {
+  text-align: right;
+}
+#es-loreal.es-loreal .es-benefits__text span {
+  font-weight: 400;
+}
+#es-loreal.es-loreal .es-benefits__disc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-top: 16px;
+  text-align: center;
+  font-size: 12px;
+}
+#es-loreal.es-loreal .es-benefits__packshot {
+  flex: 3;
+}
+#es-loreal.es-loreal .es-benefits__packshot img {
+  max-width: 300px;
+}
+#es-loreal.es-loreal .es-benefits__banner {
+  padding: 32px 16px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  display: none;
+  width: 100%;
+}
+#es-loreal.es-loreal .es-benefits__line {
+  display: none;
+}
+#es-loreal.es-loreal .es-benefits__brand img {
+  max-width: 193px;
+}
+#es-loreal.es-loreal .es-you {
+  padding: 56px 16px 32px 16px;
+}
+#es-loreal.es-loreal .es-you__content {
+  position: relative;
+  z-index: 1;
+  padding: 0 16px;
+  margin-bottom: 32px;
+}
+#es-loreal.es-loreal .es-you__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+#es-loreal.es-loreal .es-you__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  max-width: 480px;
+  font-size: 18px;
+}
+#es-loreal.es-loreal .es-you__image {
+  position: relative;
+}
+#es-loreal.es-loreal .es-you__image::after {
+  display: none;
+  content: url(../images/line-7.png);
+  position: absolute;
+  top: 175px;
+  right: -60px;
+}
+#es-loreal.es-loreal .es-you__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-loreal.es-loreal .es-you__asset {
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 40px;
+  position: relative;
+}
+#es-loreal.es-loreal .es-you__asset::before {
+  display: none;
+  content: url(../images/line-7.png);
+  position: absolute;
+  left: -200px;
+}
+#es-loreal.es-loreal .es-results {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 32px;
+  padding-top: 42px;
+  justify-content: center;
+  align-items: center;
+}
+#es-loreal.es-loreal .es-results__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#es-loreal.es-loreal .es-results__title {
+  text-transform: uppercase;
+  text-align: center;
+}
+#es-loreal.es-loreal .es-results__images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+}
+#es-loreal.es-loreal .es-results__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 220px;
+  min-height: 220px;
+}
+#es-loreal.es-loreal .es-results__before {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/before.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+  position: relative;
+  color: #000;
+}
+#es-loreal.es-loreal .es-results__before p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+#es-loreal.es-loreal .es-results__after {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/after.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #000;
+}
+#es-loreal.es-loreal .es-results__after p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+#es-loreal.es-loreal .es-results-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  justify-content: center;
+  align-items: center;
+}
+#es-loreal.es-loreal .es-results-2__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#es-loreal.es-loreal .es-results-2__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+#es-loreal.es-loreal .es-results-2__images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+}
+#es-loreal.es-loreal .es-results-2__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 250px;
+  min-height: 250px;
+}
+#es-loreal.es-loreal .es-results-2__before {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/before-2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+  position: relative;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-results-2__before p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+#es-loreal.es-loreal .es-results-2__after {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/after-2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-results-2__after p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+#es-loreal.es-loreal .es-results-2__text {
+  align-self: flex-start;
+}
+#es-loreal.es-loreal .es-results-2__text p {
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-look {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+}
+#es-loreal.es-loreal .es-look__photo {
+  margin-bottom: 32px;
+}
+#es-loreal.es-loreal .es-look__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-loreal.es-loreal .es-look__img--mobile {
+  max-height: 400px;
+}
+#es-loreal.es-loreal .es-look__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center;
+  align-self: center;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+#es-loreal.es-loreal .es-look__products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 64px 16px;
+}
+#es-loreal.es-loreal .es-look__single {
+  width: 180px;
+}
+#es-loreal.es-loreal .es-look__products-desktop {
+  display: none;
+}
+#es-loreal.es-loreal .es-look__packshot {
+  margin-bottom: 32px;
+}
+#es-loreal.es-loreal .es-look__name {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  font-size: 12px;
+  line-height: 2;
+  margin-bottom: 8px;
+}
+#es-loreal.es-loreal .es-look__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 12px;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  background: #1d1d1b;
+  text-decoration: none;
+  display: block;
+  transition: background 0.3s;
+}
+#es-loreal.es-loreal .es-look__link:hover {
+  background: #e1044b;
+}
+#es-loreal.es-loreal .es-slider {
+  padding: 56px 16px 32px 16px;
+}
+#es-loreal.es-loreal .es-slider__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 32px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: center;
+}
+#es-loreal.es-loreal .es-slider__main-title {
+  text-align: center;
+  padding-bottom: 42px;
+}
+#es-loreal.es-loreal .es-slider__wrapper {
+  background: url(../images/slider.png) no-repeat top left;
+  padding: 56px 16px 0 16px;
+}
+#es-loreal.es-loreal .es-slider__content {
+  max-width: 786px;
+  padding: 16px 10px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.06);
+}
+#es-loreal.es-loreal .es-slider__persona {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#es-loreal.es-loreal .es-slider__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-loreal.es-loreal .es-slider__photo {
+  margin-bottom: 16px;
+}
+#es-loreal.es-loreal .es-slider__photo img {
+  border-radius: 50%;
+}
+#es-loreal.es-loreal .es-slider__name {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+#es-loreal.es-loreal .es-slider__desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+#es-loreal.es-loreal .es-slider__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  font-weight: 700;
+}
+#es-loreal.es-loreal .es-slider__text {
+  font-size: 13px;
+}
+#es-loreal.es-loreal .es-slider__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  background: #1d1d1b;
+  text-decoration: none;
+  display: block;
+  transition: background 0.3s;
+  width: 100%;
+  max-width: 140px;
+  margin-bottom: 32px;
+}
+#es-loreal.es-loreal .es-slider__link:hover {
+  background: #e1044b;
+}
+#es-loreal.es-loreal .es-slider__content {
+  position: relative;
+}
+
+#es-loreal.es-loreal .es-slider .slick-button-prev {
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 40px;
+}
+
+#es-loreal.es-loreal .es-slider .slick-button-next {
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  width: 40px;
+}
+
+#es-loreal.es-loreal .es-slider .slick-pagination {
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#es-loreal.es-loreal .es-slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 4px;
+  padding: 0;
+  margin: 0;
+}
+
+#es-loreal.es-loreal .es-slider .slick-dots li {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #1d1d1b;
+  opacity: 1;
+}
+
+#es-loreal.es-loreal .es-slider .slick-dots li:not(:last-child) {
+  margin-right: 6px;
+}
+
+#es-loreal.es-loreal .es-slider .slick-dots li.slick-active {
+  background: #1d1d1b;
+}
+
+#es-loreal.es-loreal .es-slider .slick-dots li button {
+  display: none;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-button-prev:after,
+#es-loreal.es-loreal
+  .es-slider
+  .swiper-container-rtl
+  .swiper-button-next:after {
+  display: none;
+}
+#es-loreal.es-loreal .es-slider .swiper-button-next:after,
+#es-loreal.es-loreal
+  .es-slider
+  .swiper-container-rtl
+  .swiper-button-prev:after {
+  display: none;
+}
+#es-loreal.es-loreal .es-slider .swiper-button-next,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-prev {
+  right: -25px;
+  left: auto;
+}
+#es-loreal.es-loreal .es-slider .swiper-button-prev,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-next {
+  left: -25px;
+  right: auto;
+}
+#es-loreal.es-loreal
+  .es-slider
+  .swiper-container-horizontal
+  > .swiper-pagination-bullets,
+#es-loreal.es-loreal .es-slider .swiper-pagination-custom,
+#es-loreal.es-loreal .es-slider .swiper-pagination-fraction {
+  bottom: 0px;
+}
+#es-loreal.es-loreal .es-slider .swiper-pagination {
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+#es-loreal.es-loreal .es-slider .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #1d1d1b;
+  opacity: 1;
+}
+#es-loreal.es-loreal .es-slider .swiper-pagination-bullet:not(:last-child) {
+  margin-right: 6px;
+}
+#es-loreal.es-loreal .es-slider .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #1d1d1b;
+}
+#es-loreal.es-loreal .es-routine {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  padding: 32px;
+}
+#es-loreal.es-loreal .es-routine__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#es-loreal.es-loreal .es-routine__img img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-loreal.es-loreal .es-routine__img--packshots {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+#es-loreal.es-loreal .es-routine__content {
+  min-width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#es-loreal.es-loreal .es-routine__title {
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#es-loreal.es-loreal .es-routine__disclaimer {
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  #es-loreal.es-loreal {
+    max-width: 728px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #es-loreal.es-loreal {
+    max-width: 682px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  #es-loreal.es-loreal .es-kv__title-1,
+  #es-loreal.es-loreal .es-kv__title-2 {
+    width: 110px;
+  }
+}
+@media screen and (min-width: 530px) {
+  #es-loreal.es-loreal .es-kv__brand {
+    margin-left: 30px;
+    justify-content: flex-start;
+  }
+  #es-loreal.es-loreal .es-kv__title-1,
+  #es-loreal.es-loreal .es-kv__title-2 {
+    width: 150px;
+  }
+  #es-loreal.es-loreal .es-kv__packshot img {
+    height: 350px;
+  }
+  #es-loreal.es-loreal .es-kv__fancy {
+    font-size: 14px;
+    max-width: none;
+  }
+  #es-loreal.es-loreal .es-results,
+  #es-loreal.es-loreal .es-results-2 {
+    flex-wrap: wrap;
+  }
+  #es-loreal.es-loreal .es-results__images,
+  #es-loreal.es-loreal .es-results-2__images {
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  #es-loreal.es-loreal .es-results__before,
+  #es-loreal.es-loreal .es-results-2__before {
+    margin-bottom: 0;
+  }
+  #es-loreal.es-loreal .es-benefits__container {
+    gap: 10px;
+  }
+  #es-loreal.es-loreal .es-benefits__single {
+    width: 160px;
+  }
+  #es-loreal.es-loreal .es-routine__title,
+  #es-loreal.es-loreal .es-routine__text {
+    text-align: left;
+  }
+  #es-loreal.es-loreal .es-slider__slides {
+    margin: 0 auto;
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #es-loreal.es-loreal .es-slider__slides {
+    width: 350px;
+  }
+  #es-loreal.es-loreal .es-kv__stars {
+    display: flex;
+    visibility: visible;
+  }
+  #es-loreal.es-loreal .es-kv__disclaimer {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-size: 12px;
+  }
+  #es-loreal.es-loreal .es-kv__banner {
+    position: relative;
+  }
+  #es-loreal.es-loreal .es-kv__content {
+    position: absolute;
+    z-index: 3;
+  }
+  #es-loreal.es-loreal .es-kv__content--1 {
+    left: 20px;
+    bottom: 20px;
+    min-width: 332px;
+  }
+  #es-loreal.es-loreal .es-kv__content--2 {
+    top: 144px;
+    left: 68%;
+  }
+  #es-loreal.es-loreal .es-kv__content img {
+    display: block;
+  }
+  #es-loreal.es-loreal .es-kv__title-1,
+  #es-loreal.es-loreal .es-kv__title-2 {
+    width: auto;
+  }
+  #es-loreal.es-loreal .es-kv__fancy {
+    font-size: 18px;
+  }
+  #es-loreal.es-loreal .es-kv__packshot img {
+    max-width: 300px;
+    margin-left: 290px;
+  }
+  #es-loreal.es-loreal .es-kv__fancy {
+    margin-bottom: 10px;
+  }
+  #es-loreal.es-loreal .es-kv__lines {
+    display: block;
+  }
+  #es-loreal.es-loreal .es-kv__line {
+    margin-bottom: 24px;
+  }
+  #es-loreal.es-loreal .es-kv__line img {
+    margin-right: 24px;
+  }
+  #es-loreal.es-loreal .es-kv__line-2 {
+    position: absolute;
+    left: -85px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #es-loreal.es-loreal .es-kv__line-2 img {
+    margin-left: 48px;
+  }
+  #es-loreal.es-loreal .es-kv__line-3 {
+    position: absolute;
+    left: -50px;
+    top: 215px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #es-loreal.es-loreal .es-kv__badge {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    position: relative;
+  }
+  #es-loreal.es-loreal .es-kv__text,
+  #es-loreal.es-loreal .es-kv__title {
+    text-align: left;
+  }
+  #es-loreal.es-loreal .es-kv__text {
+    margin-bottom: 24px;
+  }
+  #es-loreal.es-loreal .es-info {
+    padding: 56px 40px 32px 40px;
+  }
+  #es-loreal.es-loreal .es-info__title {
+    font-size: 32px;
+  }
+  #es-loreal.es-loreal .es-you {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #es-loreal.es-loreal .es-you__content {
+    margin: 0;
+    padding: 0;
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  #es-loreal.es-loreal .es-you__tik {
+    align-self: flex-end;
+    padding: 0;
+  }
+  #es-loreal.es-loreal .es-you__title {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+  #es-loreal.es-loreal .es-you__text {
+    letter-spacing: -1px;
+  }
+  #es-loreal.es-loreal .es-you__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  #es-loreal.es-loreal .es-you__asset::before {
+    display: block;
+  }
+  #es-loreal.es-loreal .es-you__image::after {
+    display: block;
+  }
+  #es-loreal.es-loreal .es-slider {
+    margin-bottom: 32px;
+  }
+  #es-loreal.es-loreal .es-slider__title {
+    font-size: 32px;
+  }
+  #es-loreal.es-loreal .es-slider__content {
+    display: flex;
+    padding: 32px;
+  }
+  #es-loreal.es-loreal .es-slider__persona {
+    min-width: 160px;
+    margin-right: 32px;
+  }
+  #es-loreal.es-loreal .es-slider__link {
+    margin: 0;
+  }
+  #es-loreal.es-loreal .es-slider__text {
+    font-size: 14px;
+  }
+  #es-loreal.es-loreal .es-benefits__single {
+    width: 220px;
+  }
+  #es-loreal.es-loreal .es-results-2__images {
+    width: 100%;
+  }
+  #es-loreal.es-loreal .es-results-2__img {
+    width: 392px;
+    height: 394px;
+  }
+  #es-loreal.es-loreal .es-results-2__before p,
+  #es-loreal.es-loreal .es-results-2__after p {
+    right: 25px;
+    bottom: 25px;
+  }
+  #es-loreal.es-loreal .es-results-2__text {
+    margin-left: 40px;
+  }
+  #es-loreal.es-loreal .es-look {
+    padding-bottom: 32px;
+  }
+  #es-loreal.es-loreal .es-look__title br {
+    display: none;
+  }
+  #es-loreal.es-loreal .es-look__packshot {
+    display: none;
+  }
+  #es-loreal.es-loreal .es-look__products-desktop {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 930px) {
+  #es-loreal.es-loreal .es-kv__banner {
+    min-height: 500px;
+  }
+  #es-loreal.es-loreal .es-kv__packshot img {
+    width: auto;
+    margin-right: 45px;
+    height: 475px;
+  }
+  #es-loreal.es-loreal .es-benefits__container {
+    gap: 5px;
+  }
+  #es-loreal.es-loreal .es-benefits__banner {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+  }
+  #es-loreal.es-loreal .es-benefits__line {
+    padding-top: 32px;
+    display: block;
+  }
+  #es-loreal.es-loreal .es-benefits__packshot img {
+    height: 310px;
+    min-width: 200px;
+  }
+  #es-loreal.es-loreal .es-benefits__single {
+    width: 220px;
+  }
+  #es-loreal.es-loreal .es-benefits__img--bg {
+    width: 100%;
+  }
+  #es-loreal.es-loreal .es-benefits__img--line-1 {
+    position: relative;
+    left: 56px;
+  }
+  #es-loreal.es-loreal .es-benefits__img--line-3 {
+    position: relative;
+    left: -56px;
+  }
+  #es-loreal.es-loreal .es-look__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  #es-loreal.es-loreal .es-look__photo {
+    margin: 0;
+  }
+  #es-loreal.es-loreal .es-look__title {
+    text-align: center;
+  }
+  #es-loreal.es-loreal .es-look__content {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-right: 16px;
+  }
+  #es-loreal.es-loreal .es-slider .swiper-button-next,
+  #es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-prev {
+    right: -48px;
+    left: auto;
+  }
+  #es-loreal.es-loreal .es-slider .swiper-button-prev,
+  #es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-next {
+    left: -48px;
+    right: auto;
+  }
+  #es-loreal.es-loreal .es-slider .swiper-button-next,
+  #es-loreal.es-loreal .es-slider .swiper-button-prev {
+    width: 40px;
+  }
+  #es-loreal.es-loreal .es-routine {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 32px;
+  }
+  #es-loreal.es-loreal .es-routine__img {
+    display: flex;
+  }
+  #es-loreal.es-loreal .es-routine__img--model {
+    height: 100%;
+    width: 100%;
+  }
+  #es-loreal.es-loreal .es-routine__img--packshots {
+    margin-left: -150px;
+    margin-bottom: -50px;
+  }
+  #es-loreal.es-loreal .es-routine__content {
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #es-loreal.es-loreal .es-routine__title {
+    max-width: 350px;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-align: start;
+  }
+  #es-loreal.es-loreal .es-routine__title br {
+    display: none;
+  }
+  #es-loreal.es-loreal .es-results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  #es-loreal.es-loreal .es-results__img {
+    min-width: 170px;
+    min-height: 170px;
+  }
+  #es-loreal.es-loreal .es-results__content {
+    width: 45%;
+  }
+  #es-loreal.es-loreal .es-results__img {
+    width: 50%;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideleft {
+  from {
+    opacity: 0.3;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+} /*# sourceMappingURL=style.css.map */

@@ -8,4 +8,4 @@ $(document).ready(function () {
     appendDots: '.slick-pagination',
   });
 });
-// })
+// });

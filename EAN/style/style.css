@@ -967,7 +967,7 @@ body {
   }
   #es-loreal.es-loreal .es-kv__title-1,
   #es-loreal.es-loreal .es-kv__title-2 {
-    width: auto;
+    width: 180px;
   }
   #es-loreal.es-loreal .es-kv__fancy {
     font-size: 18px;
@@ -1116,8 +1116,8 @@ body {
   }
   #es-loreal.es-loreal .es-kv__packshot img {
     width: auto;
-    margin-right: 45px;
-    height: 475px;
+    margin-right: 20px;
+    height: 420px;
   }
   #es-loreal.es-loreal .es-benefits__container {
     gap: 5px;
